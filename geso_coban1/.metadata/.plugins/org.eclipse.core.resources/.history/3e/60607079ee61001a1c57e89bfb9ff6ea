@@ -1,0 +1,17 @@
+package geso.training.bean.hocsinh.imp;
+
+public interface ihocSinh {
+
+	public void DBClose();
+
+	public void creates();
+
+	public boolean Save();
+
+	public boolean Delete();
+
+	public boolean Edit();
+
+	public void Findnameid();
+
+}

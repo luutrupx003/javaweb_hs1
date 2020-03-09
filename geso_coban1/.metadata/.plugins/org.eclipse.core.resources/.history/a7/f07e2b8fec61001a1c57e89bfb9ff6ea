@@ -1,0 +1,49 @@
+package geso.training.bean.hocsinh.imp;
+
+import geso.erp.db.sql.dbutils;
+
+import java.sql.ResultSet;
+
+public class HocSinh {
+
+	private String MaHS;
+	private String TenHS;
+	private String MaLop;
+	private String UserId;
+	private String UserName;
+	ResultSet RsLop;
+	dbutils db;
+	
+	public HocSinh() {
+		this.MaHS = "";
+		this.TenHS = "";
+		this.MaLop = "";
+		db = new dbutils();
+	}
+	
+	public void DBClose() {
+		try {
+			if(this.RsLop != null)
+				this.RsLop.close();
+			if(this.db != null)
+				this.db.shutDown();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void creates() {
+		String query = "Select PK_SEQ, TENLOP from LOP";
+		this.RsLop = this.db.get(query);
+	}
+	
+	public boolean Save() {
+		String query="insert into HocSinh(TenHS, LOP) values(N'"+this.TenHS+"', '"+this.MaLop+"')";
+		return this.db.update(query)
+	}
+	
+	public boolean Delete() {
+		String query="Delete from HocSinh where MaHS='"+this.MaHS+"'";
+		return this.db.update(query);
+	}
+}

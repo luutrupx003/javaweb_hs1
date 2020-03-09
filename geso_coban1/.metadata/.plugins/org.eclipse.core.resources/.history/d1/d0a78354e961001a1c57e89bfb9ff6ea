@@ -1,0 +1,17 @@
+package geso.training.bean.hocsinh.imp;
+
+public interface I22121 {
+
+	public abstract String getMaHS();
+
+	public abstract void setMaHS(String maHS);
+
+	public abstract String getTenHS();
+
+	public abstract void setTenHS(String tenHS);
+
+	public abstract String getMaLop();
+
+	public abstract void setMaLop(String maLop);
+
+}

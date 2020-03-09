@@ -1,0 +1,16 @@
+package geso.training.bean.hocsinh;
+
+public interface IhocSinhList {
+
+	public String getMaHocSinh();
+	public void setMaHocSinh(String MaHocSinh);
+	
+	public String getTenHocSinh();
+	public void setTenHocSinh(String TenHocSinh);
+	
+	public String getMaLop();
+	public void setMaLop(String MaLop);
+	
+	public String getUserId();
+	public void setUserId(String UserId)
+}

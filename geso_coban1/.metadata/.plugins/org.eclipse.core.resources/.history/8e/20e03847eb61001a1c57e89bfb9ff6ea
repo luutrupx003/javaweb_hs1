@@ -1,0 +1,19 @@
+package geso.training.bean.hocsinh.imp;
+
+public class HocSinh {
+
+	private String MaHS;
+	private String TenHS;
+	private String MaLop;
+	private String UserId;
+	private String UserName;
+	ResultSet RsLop;
+	dbutils db;
+	
+	public HocSinh() {
+		this.MaHS = "";
+		this.TenHS = "";
+		this.MaLop = "";
+		db = new dbutils();
+	}
+}

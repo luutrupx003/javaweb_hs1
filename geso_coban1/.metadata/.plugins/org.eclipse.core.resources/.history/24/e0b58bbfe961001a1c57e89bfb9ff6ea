@@ -1,0 +1,50 @@
+package geso.training.bean.hocsinh.imp;
+
+public class HocSinh implements I22121 {
+
+	private String MaHS;
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#getMaHS()
+	 */
+	@Override
+	public String getMaHS() {
+		return MaHS;
+	}
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#setMaHS(java.lang.String)
+	 */
+	@Override
+	public void setMaHS(String maHS) {
+		MaHS = maHS;
+	}
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#getTenHS()
+	 */
+	@Override
+	public String getTenHS() {
+		return TenHS;
+	}
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#setTenHS(java.lang.String)
+	 */
+	@Override
+	public void setTenHS(String tenHS) {
+		TenHS = tenHS;
+	}
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#getMaLop()
+	 */
+	@Override
+	public String getMaLop() {
+		return MaLop;
+	}
+	/* (non-Javadoc)
+	 * @see geso.training.bean.hocsinh.imp.I22121#setMaLop(java.lang.String)
+	 */
+	@Override
+	public void setMaLop(String maLop) {
+		MaLop = maLop;
+	}
+	private String TenHS;
+	private String MaLop;
+}

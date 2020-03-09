@@ -1,0 +1,5 @@
+package geso.erp.db.sql;
+
+public class dbutils {
+
+}

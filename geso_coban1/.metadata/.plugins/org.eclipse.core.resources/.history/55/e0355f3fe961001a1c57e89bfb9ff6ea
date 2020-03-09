@@ -1,0 +1,26 @@
+package geso.training.bean.hocsinh.imp;
+
+public class HocSinh {
+
+	private String MaHS;
+	public String getMaHS() {
+		return MaHS;
+	}
+	public void setMaHS(String maHS) {
+		MaHS = maHS;
+	}
+	public String getTenHS() {
+		return TenHS;
+	}
+	public void setTenHS(String tenHS) {
+		TenHS = tenHS;
+	}
+	public String getMaLop() {
+		return MaLop;
+	}
+	public void setMaLop(String maLop) {
+		MaLop = maLop;
+	}
+	private String TenHS;
+	private String MaLop;
+}

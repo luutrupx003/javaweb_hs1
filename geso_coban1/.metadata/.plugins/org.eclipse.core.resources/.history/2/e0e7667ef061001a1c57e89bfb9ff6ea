@@ -1,0 +1,41 @@
+package geso.training.bean.hocsinh.imp;
+
+import java.sql.ResultSet;
+
+public interface ihocSinhList {
+
+	public String getMaHocSinh();
+
+	public String getTenHocSinh();
+
+	public String getMaLop();
+
+	public String getUserId();
+
+	public String getUserName();
+
+	public ResultSet getRsLop();
+
+	public ResultSet getRsHocSinhList();
+
+	public void setMaHocSinh(String maHocSinh);
+
+	public void setTenHocSinh(String tenHocSinh);
+
+	public void setMaLop(String maLop);
+
+	public void setUserId(String userId);
+
+	public void setUserName(String userName);
+
+	public void setRsLop(ResultSet rsLop);
+
+	public void setRsHocSinhList(ResultSet rsHocSinhList);
+
+	public void creates();
+
+	public void DBClose();
+
+	public void init();
+
+}

@@ -1,0 +1,18 @@
+1583745300934	Rename type 'HocSinh'
+1583745328607	Rename type 'IHocSinh'
+1583745348917	Delete element
+1583746500681	Extract interface 'I22121'
+1583746536145	Delete element
+1583746541636	Delete element
+1583748209144	Delete element
+1583748249523	Extract interface 'ihocSinh'
+1583748741580	Extract interface 'ihocSinh2'
+1583748745589	Delete element
+1583748857934	Delete element
+1583748877186	Extract interface 'ihocSinh'
+1583748907496	Copy compilation unit
+1583748912254	Delete element
+1583748935934	Delete element
+1583749587193	Extract interface 'ihocSinhList'
+1583749612911	Copy compilation unit
+1583749619614	Delete element
